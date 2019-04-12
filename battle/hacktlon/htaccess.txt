@@ -1,0 +1,8 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteRule ^home?$ index.php?page=home
+RewriteRule ^dashboard?$ index.php?page=dashboard
+RewriteRule ^users?$ index.php?page=users
+RewriteRule ^usersactions?$ index.php?page=usersactions
+RewriteRule ^usersactions-([0-9])?$ index.php?page=usersactions&id=$1
